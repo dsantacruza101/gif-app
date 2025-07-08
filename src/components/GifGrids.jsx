@@ -11,6 +11,7 @@ export const GifGrid = ({ category }) => {
           {
             isLoading && ( <h2  >Cargando.....</h2> )
           }
+          console.log(category);
           
           <div className="card-grid" >
             {
